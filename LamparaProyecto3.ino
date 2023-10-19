@@ -27,11 +27,11 @@ Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, NEOPIXEL_PIN, NEO_GRB + NE
 #include "SinricProTemperaturesensor.h"
 #include "DHT.h"
 
-#define WIFI_SSID         "TIGO-9EF5"    
-#define WIFI_PASS         "4D9687404497"
-#define APP_KEY           "8935dc13-914a-4f07-ba20-704d62fd8e64"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
-#define APP_SECRET        "0467bacb-1b15-4add-aa54-3c1e8c5fbbba-e028b2c5-98a2-43aa-88e9-34449aecca87"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
-#define LIGHT_ID          "651de402ddaa8861a119af63"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
+#define WIFI_SSID         "Wifi_ssid"    
+#define WIFI_PASS         "Wifi_pass"
+#define APP_KEY           "app_key"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
+#define APP_SECRET        "app_secret"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
+#define LIGHT_ID          "light_id"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
 #define BAUD_RATE         9600                // Change baudrate to your need
 #define LIGHT_PIN D6  // Define the pin for the light output (change to D6)
 #define TEMP_SENSOR_ID    "651c81aeddaa8861a118f656"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
